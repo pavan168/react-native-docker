@@ -1,0 +1,8 @@
+version: '3'
+services:
+    react-native-docker:
+        build: .
+        ports:
+            - 8081:8081
+        volumes:
+            - /local/path/to/project/:/docker/path
